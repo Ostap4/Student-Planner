@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ExamsController">
+
+    <children>
+        <VBox alignment="CENTER" spacing="10" AnchorPane.leftAnchor="10" AnchorPane.topAnchor="10">
+            <TableView fx:id="examTable" prefHeight="300" prefWidth="600">
+                <columns>
+                    <TableColumn fx:id="subjectColumn" text="Subject" />
+                    <TableColumn fx:id="dateColumn" text="Date" />
+                    <TableColumn fx:id="timeColumn" text="Time" />
+                    <TableColumn fx:id="locationColumn" text="Room" />
+                </columns>
+            </TableView>
+
+            <HBox alignment="CENTER" spacing="10">
+                <Button onAction="#handleAdd" text="Add" />
+                <Button onAction="#handleEdit" text="Edit" />
+                <Button onAction="#handleDelete" text="Delete" />
+            </HBox>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+.details-vbox {
+    -fx-background-color: #F0F8FF;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.section-title {
+    -fx-font-weight: bold;
+    -fx-text-fill: #2F4F4F;
+}
+
+.default-list-view {
+    -fx-background-color: #E0FFFF;
+}
+
+.user-list-view {
+    -fx-background-color: #FAF0E6;
+}
+
+.input-field {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #D3D3D3;
+    -fx-border-radius: 5;
+}
+
+.add-button {
+    -fx-background-color: #ADD8E6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+.delete-menu-item {
+    -fx-text-fill: #B22222;
+}
+
+.close-button {
+    -fx-background-color: #F08080;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
