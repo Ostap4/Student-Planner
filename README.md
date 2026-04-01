@@ -2,7 +2,7 @@
 
 A desktop application designed for students to efficiently manage their schedules, classes, and exams. Built with Java and JavaFX, this project demonstrates practical skills in desktop application development, UI design, backend logic, and data handling.
 
-![Calendar View](calendar.png) 
+![Calendar View](screen.jpg) 
 *(Note: Replace `calendar.png` with the actual filename of your screenshot if it's different, or place the image in an `images/` folder and update the path to `images/calendar.png`)*
 
 ## 🚀 Features
