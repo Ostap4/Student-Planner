@@ -33,6 +33,17 @@ A desktop application designed for students to efficiently manage their schedule
 
 ## ⚙️ How to Run
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Ostap4/Student-Planner.git](https://github.com/Ostap4/Student-Planner.git)
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YourUsername/YourRepositoryName.git](https://github.com/YourUsername/YourRepositoryName.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd YourRepositoryName
+    ```
+3.  **Run with Maven:**
+    Ensure you have Maven installed, then execute:
+    ```bash
+    mvn clean javafx:run
+    ```
+    *Alternatively, you can open the project in your preferred IDE and run the `Main.java` class directly.*
